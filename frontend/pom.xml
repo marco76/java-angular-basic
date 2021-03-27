@@ -75,21 +75,6 @@
           </execution>
         </executions>
       </plugin>
-
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.1</version>
-        <configuration>
-          <webResources>
-            <resource>
-              <directory>dist</directory>
-              <targetPath>META-INF/resources</targetPath>
-            </resource>
-          </webResources>
-          <failOnMissingWebXml>false</failOnMissingWebXml>
-        </configuration>
-      </plugin>
     </plugins>
 
     <resources>

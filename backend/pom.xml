@@ -24,7 +24,7 @@
         <groupId>dev.marco</groupId>
         <artifactId>frontend</artifactId>
         <version>0.1-SNAPSHOT</version>
-        <type>war</type>
+        <type>jar</type>
     </dependency>
     </dependencies>
 
