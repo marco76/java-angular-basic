@@ -7,7 +7,7 @@
     <groupId>dev.marco</groupId>
     <artifactId>java-angular-example</artifactId>
     <packaging>pom</packaging>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.1.13-SNAPSHOT</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
