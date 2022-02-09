@@ -7,3 +7,4 @@ https://marco.dev/deploy-java-angular-one
 
 And a demo of the installation in this video:
 https://youtu.be/xCNCCZLvd0Y
+
