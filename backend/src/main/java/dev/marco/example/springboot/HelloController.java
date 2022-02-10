@@ -9,10 +9,12 @@ import java.util.Collections;
 import java.util.Map;
 
 @RestController
-// we allow localhost:4200 for testing purposes
-@CrossOrigin(origins = "http://localhost:4200")
+// we allow cors requests from our frontend environment
+// note the curly braces that creates an array of strings ... required by the annotation
+@CrossOrigin(origins =  {"${app.dev.frontend.local"})
 public class HelloController {
 
+    // simple GET response for our example purpose, we return a JSON structure
     @RequestMapping(value = "/message", produces = MediaType.APPLICATION_JSON_VALUE)
     public Map<String, String> index() {
         return Collections.singletonMap("message", "Greetings from Spring Boot!");

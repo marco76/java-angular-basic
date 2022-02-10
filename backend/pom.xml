@@ -24,7 +24,13 @@
         <artifactId>frontend</artifactId>
         <version>${project.version}</version>
         <type>jar</type>
+        <!-- we add optional to work with the backend package without building the frontend -->
+        <optional>true</optional>
     </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
