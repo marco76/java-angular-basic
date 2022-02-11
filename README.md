@@ -21,5 +21,5 @@ I will add some basic features like:
 
 The goal is to provide a small application with a full set of features well documented that can be used as inspiration or reference for other projects.
 
-Non-goal are to provide a full set of features or a template.
+Non-goal are to provide a full set of features or a template to be used to build other applications (well, you could do it but there is a lot to delete).
 
