@@ -23,3 +23,5 @@ The goal is to provide a small application with a full set of features well docu
 
 Non-goal are to provide a full set of features or a template to be used to build other applications (well, you could do it but there is a lot to delete).
 
+## Request a feature
+You can contact me or fill a feature request if you would like to see a feature included in this showcase.
