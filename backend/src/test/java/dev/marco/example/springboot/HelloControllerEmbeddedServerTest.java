@@ -1,5 +1,6 @@
 package dev.marco.example.springboot;
 
+import dev.marco.example.springboot.hello.HelloController;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

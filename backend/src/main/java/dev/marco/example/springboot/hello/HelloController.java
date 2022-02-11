@@ -1,4 +1,4 @@
-package dev.marco.example.springboot;
+package dev.marco.example.springboot.hello;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;

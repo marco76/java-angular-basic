@@ -8,8 +8,8 @@ https://marco.dev/deploy-java-angular-one
 And a demo of the installation in this video:
 https://youtu.be/xCNCCZLvd0Y
 
-To the basic example I added some 'showcase' extra features:
+To the basic example I added some 'showcases' extra features:
 - Test with MockMvc
 - Test with RestTemplateTest
-- OpenApi using Spring Doc (code first). Swagger-ui is accessible here: http://localhost:8080/swagger-ui 
+- OpenApi using Spring Doc (code first). Swagger-ui is accessible here: http://localhost:8080/swagger-ui
 
