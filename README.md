@@ -13,3 +13,13 @@ To the basic example I added some 'showcases' extra features:
 - Test with RestTemplateTest
 - OpenApi using Spring Doc (code first). Swagger-ui is accessible here: http://localhost:8080/swagger-ui
 
+
+I will add some basic features like:
+- security
+- websockets
+- ...
+
+The goal is to provide a small application with a full set of features well documented that can be used as inspiration or reference for other projects.
+
+Non-goal are to provide a full set of features or a template.
+
