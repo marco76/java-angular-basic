@@ -1,4 +1,4 @@
-# java-angular-basic
+# Java (Spring Boot) and Angular basic showcase
 
 This is a quick starter for projects using Spring Boot as backend and Angular as frontend.
 
@@ -22,6 +22,11 @@ I will add some basic features like:
 The goal is to provide a small application with a full set of features well documented that can be used as inspiration or reference for other projects.
 
 Non-goal are to provide a full set of features or a template to be used to build other applications (well, you could do it but there is a lot to delete).
+
+## Branches
+Some features are integrated in separate branches:
+- Open API example: https://github.com/marco76/java-angular-basic/tree/external-api-open-api
+- 
 
 ## Request a feature
 You can contact me or fill a feature request if you would like to see a feature included in this showcase.
