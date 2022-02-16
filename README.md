@@ -27,6 +27,7 @@ Non-goal are to provide a full set of features or a template to be used to build
 Some features are integrated in separate branches:
 - Open API example: https://github.com/marco76/java-angular-basic/tree/external-api-open-api
 - Build a WAR and not a JAR: https://github.com/marco76/java-angular-basic/tree/feature/war-for-tomcat
+- Latest Angular version (13): https://github.com/marco76/java-angular-basic/tree/origin/angular-13-spring-boot-262
 
 ## Request a feature
 You can contact me or fill a feature request if you would like to see a feature included in this showcase.
