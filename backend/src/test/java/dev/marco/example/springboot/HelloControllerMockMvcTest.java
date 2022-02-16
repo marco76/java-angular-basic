@@ -28,5 +28,4 @@ public class HelloControllerMockMvcTest {
                 .andDo(print()) // we log the result
                 .andExpect(content().string(containsString(" from Spring"))); // we check that the Body of the answer contains our expectation
     }
-
 }

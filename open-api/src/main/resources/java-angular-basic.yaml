@@ -1,0 +1,48 @@
+openapi: 3.0.3 # version of the specification
+info:
+  version: '1'
+  title: Marco.dev Angular Spring Boot Example Api
+
+servers:
+  - url: http://localhost:8080
+
+paths:
+  /hello-open:
+    get:
+      summary: return a simple generic greeting
+      operationId: getGreeting
+      responses:
+        200:
+          description: General greeting
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Greeting'
+  /hello-open/{name}:
+    parameters:
+      - in: path
+        name: name
+        schema:
+          type: string
+        required: true
+        description: "Name"
+        example: "Marco"
+    get:
+      description: return a greeting with name
+      operationId: getPersonalGreeting
+      responses:
+        200:
+          description: Personal greeting
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Greeting'
+components:
+  schemas:
+    Greeting:
+      type: object
+      properties:
+        message:
+          type: string
+          example: 'Hello from Spring'
+          default: 'Hello visitor'
