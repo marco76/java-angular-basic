@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
  * The goal of this controller is to show the test of the services and some REST methods
  */
 @RestController
-@CrossOrigin(origins =  {"${app.dev.frontend.local"})
+@CrossOrigin(origins =  {"${app.dev.frontend.local}"})
 public class FeatureController {
 
     @Autowired

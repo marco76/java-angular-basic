@@ -11,7 +11,7 @@ import java.util.Map;
 @RestController
 // we allow cors requests from our frontend environment
 // note the curly braces that creates an array of strings ... required by the annotation
-@CrossOrigin(origins =  {"${app.dev.frontend.local"})
+@CrossOrigin(origins =  {"${app.dev.frontend.local}"})
 public class HelloController {
 
     // simple GET response for our example purpose, we return a JSON structure
