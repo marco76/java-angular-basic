@@ -26,7 +26,7 @@ public class HelloControllerMockMvcTest {
         this.mockMvc
                 .perform(get("/message")) // perform a request that can be chained
                 .andDo(print()) // we log the result
-                .andExpect(content().string(containsString(" from Spring"))); // we check that the Body of the answer contains our expectation
+                .andExpect(content().string(containsString("marco.dev"))); // we check that the Body of the answer contains our expectation
     }
 
 }
