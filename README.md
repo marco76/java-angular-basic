@@ -12,7 +12,7 @@ As reminder, this is not my preferred approach to a full stack deployment.
 This is a quick start for projects using Spring Boot as the backend and Angular as the frontend.
 
 A detailed description can be found in this post:
-https://marco.dev/deploy-java-angular-one
+https://marmo.dev/deploy-java-angular-one
 
 And a demo of the installation in this video:
 https://youtu.be/xCNCCZLvd0Y
